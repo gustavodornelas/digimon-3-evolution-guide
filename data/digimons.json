@@ -1,0 +1,75 @@
+{
+    "Rookies": [
+      {"nome": "Kumamon", "imagem": "https://static.wikia.nocookie.net/digimon/images/2/20/Bearmon_b.jpg"},
+      {"nome": "Kotemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/d/d1/Kotemon_b.jpg"},
+      {"nome": "Monmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/9d/Monmon_b.jpg"},
+      {"nome": "Renamon", "imagem": "https://static.wikia.nocookie.net/digimon/images/f/f2/Renamon_b.jpg"},
+      {"nome": "Patamon", "imagem": "https://static.wikia.nocookie.net/digimon/images/7/77/Patamon_b.jpg"},
+      {"nome": "Agumon", "imagem": "https://static.wikia.nocookie.net/digimon/images/6/68/Agumon_b.jpg"},
+      {"nome": "Guilmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/a/a1/Guilmon_b.jpg"},
+      {"nome": "Veemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/1/1b/Veemon_b.jpg"}
+    ],
+    "Champions": [
+      {"nome": "Angemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/08/Angemon_b.jpg"},
+      {"nome": "Devimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/9a/Devimon_b.jpg"},
+      {"nome": "Dinohumon", "imagem": "https://static.wikia.nocookie.net/digimon/images/8/80/Dinohyumon_b.jpg"},
+      {"nome": "ExVeemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/03/ExVeemon_b.jpg"},
+      {"nome": "Greymon", "imagem": "https://static.wikia.nocookie.net/digimon/images/5/56/Greymon_b.jpg"},
+      {"nome": "Grizzmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/e/e6/Grizzlymon_b.jpg"},
+      {"nome": "Growlmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/7/74/Growlmon_b.jpg"},
+      {"nome": "Hookmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/95/Hookmon_b.jpg"},
+      {"nome": "Kabuterimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/6/65/Kabuterimon_b.jpg"},
+      {"nome": "Kyubimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/1/1c/Kyubimon_b.jpg"},
+      {"nome": "Stingmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/e/ea/Stingmon_b.jpg"}
+    ],
+    "Ultimates": [
+      {"nome": "Angewomon", "imagem": "https://static.wikia.nocookie.net/digimon/images/3/39/Angewomon_b.jpg"},
+      {"nome": "Armormon", "imagem": "https://static.wikia.nocookie.net/digimon/images/8/84/Armormon_b.jpg"},
+      {"nome": "Digitamamon", "imagem": "https://static.wikia.nocookie.net/digimon/images/3/3e/Digitamamon_b.jpg"},
+      {"nome": "GrapLeomon", "imagem": "https://static.wikia.nocookie.net/digimon/images/1/1f/GrapLeomon_b.jpg"},
+      {"nome": "Kyukimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/3/3b/Kyukimon_b.jpg"},
+      {"nome": "MagnaAngemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/93/MagnaAngemon_b.jpg"},
+      {"nome": "MetalGreymon", "imagem": "https://static.wikia.nocookie.net/digimon/images/c/c4/MetalGreymon_%28Vaccine%29_b.jpg"},
+      {"nome": "MetalMamemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/5/56/MetalMamemon_b.jpg"},
+      {"nome": "Myotismon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/91/Myotismon_b.jpg"},
+      {"nome": "Paildramon", "imagem": "https://static.wikia.nocookie.net/digimon/images/d/d4/Paildramon_b.jpg"},
+      {"nome": "SkullGreymon", "imagem": "https://static.wikia.nocookie.net/digimon/images/e/e7/SkullGreymon_b.jpg"},
+      {"nome": "Taomon", "imagem": "https://static.wikia.nocookie.net/digimon/images/2/24/Taomon_b.jpg"},
+      {"nome": "WarGrowlmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/a/ab/WarGrowlmon_b.jpg"}
+    ],
+    "Megas": [
+      {"nome": "Beelzemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/8/80/Beelzemon_Blast_Mode_b.jpg"},
+      {"nome": "BlackWarGreymon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/90/BlackWarGreymon_b.jpg"},
+      {"nome": "Cannondramon", "imagem": "https://static.wikia.nocookie.net/digimon/images/7/7c/Cannondramon_b.jpg"},
+      {"nome": "Diaboromon", "imagem": "https://static.wikia.nocookie.net/digimon/images/d/dd/Diaboromon_b.jpg"},
+      {"nome": "Gallantmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/c/c5/Gallantmon_b.jpg"},
+      {"nome": "GranKuwagamon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/07/GranKuwagamon_b.jpg"},
+      {"nome": "GuardiAngemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/94/SlashAngemon_b.jpg"},
+      {"nome": "Imperialdramon", "imagem": "https://static.wikia.nocookie.net/digimon/images/b/ba/Imperialdramon_Dragon_Mode_b.jpg"},
+      {"nome": "Imperialdramon FM", "imagem": "https://static.wikia.nocookie.net/digimon/images/4/4c/Imperialdramon_Fighter_Mode_b.jpg"},
+      {"nome": "Imperialdramon PM", "imagem": "https://static.wikia.nocookie.net/digimon/images/a/ae/Imperialdramon_Paladin_Mode_b.jpg"},
+      {"nome": "Marsmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/c/cb/Marsmon_b.jpg"},
+      {"nome": "MegaGargomon", "imagem": "https://static.wikia.nocookie.net/digimon/images/7/74/MegaGargomon_b.jpg"},
+      {"nome": "MaloMyotismon", "imagem": "https://static.wikia.nocookie.net/digimon/images/3/37/MaloMyotismon_b.jpg"},
+      {"nome": "MetalGarurumon", "imagem": "https://static.wikia.nocookie.net/digimon/images/1/1d/MetalGarurumon_b.jpg"},
+      {"nome": "Omnimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/9/9c/Omnimon_b.jpg"},
+      {"nome": "Pheonixmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/0e/Phoenixmon_b.jpg"},
+      {"nome": "Rosemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/6/64/Rosemon_b.jpg"},
+      {"nome": "Sakuyamon", "imagem": "https://static.wikia.nocookie.net/digimon/images/2/27/Sakuyamon_b.jpg"},
+      {"nome": "Seraphimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/f/f9/Seraphimon_b.jpg"},
+      {"nome": "WarGreymon", "imagem": "https://static.wikia.nocookie.net/digimon/images/4/49/WarGreymon_b.jpg"}
+    ],
+    "DNAs": [
+      {"nome": "Agunimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/7/70/Agunimon_b.jpg"},
+      {"nome": "AncientGreymon", "imagem": "https://static.wikia.nocookie.net/digimon/images/3/3d/AncientGreymon_b.jpg"},
+      {"nome": "BladeGarurumon", "imagem": "https://static.wikia.nocookie.net/digimon/images/8/8f/BladeGarurumon_b.jpg"},
+      {"nome": "Beelzemon", "imagem": "https://static.wikia.nocookie.net/digimon/images/6/6d/Beelzemon_b.jpg"},
+      {"nome": "Diaboromon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/0a/Diaboromon_b.jpg"},
+      {"nome": "Imperialdramon PM", "imagem": "https://static.wikia.nocookie.net/digimon/images/1/1e/Imperialdramon_pm_b.jpg"},
+      {"nome": "MegaGargomon", "imagem": "https://static.wikia.nocookie.net/digimon/images/8/8f/MegaGargomon_b.jpg"},
+      {"nome": "Omnimon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/06/Omnimon_b.jpg"},
+      {"nome": "Paildramon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/07/Paildramon_b.jpg"},
+      {"nome": "Phoenixmon", "imagem": "https://static.wikia.nocookie.net/digimon/images/0/05/Phoenixmon_b.jpg"}
+    ]
+  }
+  

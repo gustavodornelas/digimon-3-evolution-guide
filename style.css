@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+
+body {
+    font-family: Roboto, 'Courier New', Courier, monospace;
+    margin: 0;
+    background-color: #576baa;
+    color: #1f1f1f;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: Silkscreen, 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom, rgba(87, 107, 170, 0), rgba(87, 107, 170, 1)), url('src/Background.png');
+    background-position: right;
+    background-color: #576baa;
+    background-size: 70rem;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    background: #FCFA9A;
+    background: linear-gradient(to bottom, #FCFA9A 35%, #CE4C29 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #0d143a ;
+    font-size: 3rem;
+    color: white;
+
+    font-weight: bold;
+}
+
+header img {
+    width: 15rem;
+    aspect-ratio: auto;
+}
+
+
+h3 {
+    margin: 1rem;
+}
+
+.digimon-list h2 {
+    margin: 1rem;
+    color: #fff;
+    text-shadow: 3px 3px 2px black;
+}
+
+.digimon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.digimon-container h2 {
+    color: #fff;
+}
+
+.digimon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 2px #1f1f1f;
+
+    transition: all linear .3s;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+.digimon img {
+    max-width: 15rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+footer {
+    padding: 3rem 0 1rem 0;
+    background: linear-gradient(to top, #0d143a 55%, #576baa 100%);
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Estilos para telas pequenas (celulares, por exemplo) */
+@media screen and (max-width: 1200px) {
+    header {
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    .digimon-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .digimon img {
+        max-width: 10rem;
+    }
+}
+
+/* Estilos para telas pequenas (celulares, por exemplo) */
+@media screen and (max-width: 900px) {
+    header {
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header img {
+        width: 10rem;
+    }
+
+    .digimon-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .digimon img {
+        max-width: 10rem;
+    }
+}
+
+/* Estilos para telas ainda menores (muito pequenos celulares) */
+@media screen and (max-width: 550px) {
+    header {
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header img {
+        display: none;
+    }
+
+    .digimon-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .digimon img {
+        max-width: 8rem;
+    }
+}

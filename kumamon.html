@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Digimon World 3 Digivolution Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="/">
+            <img src="src/logo.png" alt="">
+        </a>
+        <h1>Kumamon Digivolution Guide</h1>
+    </header>
+
+    <div class="digimon-list" id="digimon-list">
+    </div>
+
+    <footer>
+        <p>Developed by Gustavo Dornelas. Follow me: <a href="https://github.com/gustavodornelas">GitHub</a></p>
+    </footer>
+
+<script>
+        function createCard(digimon) {
+            console.log(digimon);
+
+            const div = document.createElement("div");
+            div.className = "digimon";
+            div.id = digimon.nome;
+
+            const img = document.createElement("img");
+            img.src = digimon.imagem
+            img.alt = digimon.nome
+
+            const nome = document.createElement("h3");
+            nome.textContent = digimon.nome
+
+            const requisitos = document.createElement("ul");
+            for (const [key, value] of Object.entries(digimon.requisitos)) {
+                const requisito = document.createElement("li")
+                requisito.innerHTML = `<strong>${key}</strong>: ${value}`
+                requisitos.appendChild(requisito)
+            }
+
+            div.appendChild(nome)
+            div.appendChild(img)
+            div.appendChild(requisitos)
+
+            return div
+        }
+
+        fetch('data/kumamon.json')
+            .then(response => response.json())
+            .then(async data => {
+                const digimonList = document.getElementById('digimon-list')
+                Object.keys(data).forEach(async category => {
+                    const title = document.createElement("h2")
+                    title.textContent = category
+                    digimonList.appendChild(title)
+
+                    const container = document.createElement("div")
+                    container.className = "digimon-container"
+                    digimonList.appendChild(container)
+
+                    const listaCategoria = await fetch('data/digimons.json')
+                            .then(response2 => response2.json())
+                            .then(data2 => {
+                                return data2[category]
+                            })
+
+                    console.log(listaCategoria)
+
+                    data[category].forEach(digimon => {
+
+                        console.log("exibindo: " + digimon.nome)
+                        
+                        listaCategoria.forEach(item => {
+                            if (item.nome == digimon.nome) {
+                                digimon.imagem = item.imagem
+                            }
+                        })
+
+                        const card = createCard(digimon)
+                        container.appendChild(card)
+                    })
+                })
+            })
+            .catch(error => console.error('Erro ao carregar dados:', error))
+    </script>
+</body>
+</html>

@@ -1,0 +1,291 @@
+{
+    "Champions": [
+      {
+        "nome": "Angemon",
+        "requisitos": {
+          "Sakuyamon": "lv. 30",
+          "Wind": 150
+        }
+      },
+      {
+        "nome": "Devimon",
+        "requisitos": {
+          "Sakuyamon": "lv. 10"
+        }
+      },
+      {
+        "nome": "Dinohumon",
+        "requisitos": {
+          "Grizzmon": "lv. 20"
+        }
+      },
+      {
+        "nome": "ExVeemon",
+        "requisitos": {
+          "Taomon": "lv. 20",
+          "Wind": 120
+        }
+      },
+      {
+        "nome": "Greymon",
+        "requisitos": {
+          "Grizzmon": "lv. 30",
+          "Defense": 280
+        }
+      },
+      {
+        "nome": "Grizzmon",
+        "requisitos": {
+          "Myotismon": "lv. 20",
+          "Strength": 300
+        }
+      },
+      {
+        "nome": "Growlmon",
+        "requisitos": {
+          "Stingmon": "lv. 20",
+          "Defense": 80
+        }
+      },
+      {
+        "nome": "Hookmon",
+        "requisitos": {
+          "Kyukimon": "lv. 20"
+        }
+      },
+      {
+        "nome": "Kabuterimon",
+        "requisitos": {
+          "Stingmon": "lv. 40"
+        }
+      },
+      {
+        "nome": "Kyubimon",
+        "requisitos": {
+          "Renamon": "lv. 5"
+        }
+      },
+      {
+        "nome": "Stingmon",
+        "requisitos": {
+          "Kyubimon": "lv. 20",
+          "Strength": 80
+        }
+      }
+    ],
+    "Ultimates": [
+      {
+        "nome": "Angewomon",
+        "requisitos": {
+          "Kyubimon": "lv. 30",
+          "Spirit": 160
+        }
+      },
+      {
+        "nome": "Armormon",
+        "requisitos": {
+          "Hookmon": "lv. 50"
+        }
+      },
+      {
+        "nome": "Digitamamon",
+        "requisitos": {
+          "Sakuyamon": "lv. 20",
+          "Intelligence": 400
+        }
+      },
+      {
+        "nome": "GrapLeomon",
+        "requisitos": {
+          "Grizzmon": "lv. 50"
+        }
+      },
+      {
+        "nome": "Kyukimon",
+        "requisitos": {
+          "Dinohumon": "lv. 50"
+        }
+      },
+      {
+        "nome": "MagnaAngemon",
+        "requisitos": {
+          "Angemon": "lv. 50"
+        }
+      },
+      {
+        "nome": "MetalGreymon",
+        "requisitos": {
+          "Greymon": "lv. 40"
+        }
+      },
+      {
+        "nome": "MetalMamemon",
+        "requisitos": {
+          "Taomon": "lv. 30",
+          "Machine": 100
+        }
+      },
+      {
+        "nome": "Myotismon",
+        "requisitos": {
+          "Devimon": "lv. 50"
+        }
+      },
+      {
+        "nome": "Paildramon",
+        "requisitos": {
+          "Exveemon": "lv. 5",
+          "Stingmon": "lv. 5"
+        }
+      },
+      {
+        "nome": "SkullGreymon",
+        "requisitos": {
+          "Greymon": "lv. 50",
+          "Dark": 250
+        }
+      },
+      {
+        "nome": "Taomon",
+        "requisitos": {
+          "Renamon": "lv. 20"
+        }
+      },
+      {
+        "nome": "WarGrowlmon",
+        "requisitos": {
+          "Growlmon": "lv. 40",
+          "Renamon": "lv. 25"
+        }
+      }
+    ],
+    "Megas": [
+      {
+        "nome": "Beelzemon",
+        "requisitos": {
+          "MaloMyotismon": "lv. 40",
+          "Gallantmon": "lv. 40"
+        }
+      },
+      {
+        "nome": "BlackWarGreymon",
+        "requisitos": {
+          "SkullGreymon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Cannondramon",
+        "requisitos": {
+          "Armormon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Diaboromon",
+        "requisitos": {
+          "GranKuwagamon": "lv. 99",
+          "BlackWarGreymon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Gallantmon",
+        "requisitos": {
+          "WarGrowlmon": "lv. 99"
+        }
+      },
+      {
+        "nome": "GranKuwagamon",
+        "requisitos": {
+          "Imperialdramon": "lv. 40",
+          "Kabuterimon": "lv. 40"
+        }
+      },
+      {
+        "nome": "GuardiAngemon",
+        "requisitos": {
+          "Kyukimon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Imperialdramon",
+        "requisitos": {
+          "Paildramon": "lv. 50"
+        }
+      },
+      {
+        "nome": "Imperialdramon FM",
+        "requisitos": {
+          "Imperialdramon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Imperialdramon PM",
+        "requisitos": {
+          "Imperialdramon FM": "lv. 40",
+          "Omnimon": "lvl.40"
+        }
+      },
+      {
+        "nome": "MaloMyotismon",
+        "requisitos": {
+          "Myotismon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Marsmon",
+        "requisitos": {
+          "GrapLeomon": "lv. 99"
+        }
+      },
+      {
+        "nome": "MegaGargomon",
+        "requisitos": {
+          "MetalGarurumon": "lv. 99"
+        }
+      },
+      {
+        "nome": "MetalGarurumon",
+        "requisitos": {
+          "MetalMamemon": "lv. 40",
+          "Machine": 120
+        }
+      },
+      {
+        "nome": "Omnimon",
+        "requisitos": {
+          "Wargreymon": "lv. 40",
+          "MetalGarurumon": "lv. 40"
+        }
+      },
+      {
+        "nome": "Pheonixmon",
+        "requisitos": {
+          "Rosemon": "lv. 99"
+        }
+      },
+      {
+        "nome": "Rosemon",
+        "requisitos": {
+          "Angewomon": "lv. 40",
+          "Renamon": "lv. 15"
+        }
+      },
+      {
+        "nome": "Sakuyamon",
+        "requisitos": {
+          "Renamon": "lv. 40"
+        }
+      },
+      {
+        "nome": "Seraphimon",
+        "requisitos": {
+          "MagnaAngemon": "lv. 99"
+        }
+      },
+      {
+        "nome": "WarGreymon",
+        "requisitos": {
+          "MetalGreymon": "lv. 99"
+        }
+      }
+    ]
+  }
